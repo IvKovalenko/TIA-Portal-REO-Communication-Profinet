@@ -33,8 +33,8 @@ ___
 1. Extract the Global Library archive included in this repository.
 2. In TIA Portal, open your project.
 3. Import the extracted Global Library.
-4. Add the Function Block (FB) from the library to your program.
-5. Configure Profinet connection according to your hardware setup.
+4. Add the Function Block(FB) "FB_REOComm", Function(FC) "FC_DecodeREOStatus" and Type "typeREOStatus" from the library to your program.
+6. Configure Profinet connection according to your hardware setup.
 
 For parameter address mapping, refer to the official REO Profinet documentation, which provides register addresses in hexadecimal format.
 ___
